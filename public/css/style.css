@@ -17,6 +17,15 @@ body{
   align-items: center;
 }
 
+.join-box{
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: auto;
+  margin-left: auto;
+}
+
 .logo{
   height: 80px;
 }
@@ -32,3 +41,4 @@ body{
   text-transform: uppercase;
   cursor: pointer;
 }
+
