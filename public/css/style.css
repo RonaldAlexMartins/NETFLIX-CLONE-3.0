@@ -114,3 +114,9 @@ body{
   height: 170px;
   object-fit: cover;
 }
+
+.movie p {
+  text-transform: capitalize;
+  height: 20px;
+  overflow: hidden;
+}
