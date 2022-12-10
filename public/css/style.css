@@ -47,4 +47,7 @@ body{
   cursor: pointer;
 }
 
-
+.join-btn{
+  background: #dd0e15;
+  border-color: #dd0e15;
+}
