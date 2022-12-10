@@ -78,3 +78,8 @@ body{
   margin-top: 40px;
   position: relative;
 }
+
+.movie-category{
+  font-size: 20px;
+  font-weight: 500;
+}
