@@ -120,3 +120,36 @@ body{
   height: 20px;
   overflow: hidden;
 }
+
+.pre-btn, 
+.next-btn{
+  position: absolute;
+  height: 200px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.5vw;
+  background: #181818;
+  border: none;
+  outline: none;
+  opacity: 0.5;
+}
+
+.pre-btn{
+  left: -2.5vw;
+}
+
+.next-btn{
+  right: -2.5vw;
+}
+
+.pre-btn img,
+.next-btn img{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.pre-btn:hover, 
+.next-btn:hover{
+  opacity: 1;
+}
