@@ -26,6 +26,11 @@ body{
   margin-left: auto;
 }
 
+.join-msg{
+  color: #fff;
+  text-transform: uppercase;
+}
+
 .logo{
   height: 80px;
 }
@@ -41,4 +46,5 @@ body{
   text-transform: uppercase;
   cursor: pointer;
 }
+
 
