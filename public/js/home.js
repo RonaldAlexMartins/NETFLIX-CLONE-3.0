@@ -62,7 +62,12 @@ const makeCards = (id, data) =>{
           <p class="movie-title">${item.backdrop_path}</p>
         </div>
       `
-
+      if(i == data.length -1){
+        setTimeout(()=>{
+          setupScrooling()
+        }, 100)
+      }
+      
 
 
     }
